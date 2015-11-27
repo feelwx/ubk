@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical">
+
+    <Button
+       	android:id="@+id/ad_banner_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Banner演示" />
+    
+    <Button
+       	android:id="@+id/ad_injection_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="插屏(半屏)演示" />
+    
+    <Button
+       	android:id="@+id/ad_injection_full_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="插屏(全屏)演示" />
+    
+    <Button
+       	android:id="@+id/ad_notification_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通知演示" />    
+
+	<Button
+       	android:id="@+id/ad_h5_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="推荐墙" /> 
+        
+	<Button
+       	android:id="@+id/show_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示设备号" /> 	
+	
+</LinearLayout>
